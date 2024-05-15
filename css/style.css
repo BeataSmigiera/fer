@@ -30,6 +30,10 @@ a {
   align-items: center;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .pt-lg {
   padding-top: var(--spacing-lg);
 }
@@ -43,10 +47,6 @@ a {
 }
 
 /* HEADER */
-.header-direction {
-  flex-direction: column;
-}
-
 .nav-text-style {
   letter-spacing: var(--spacing-xs);
   text-transform: uppercase;
