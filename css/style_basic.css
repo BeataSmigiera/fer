@@ -8,10 +8,33 @@
 ol[role="list"],
 ul[role="list"] {
   list-style: none;
+  padding: 0;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+.screenreader-text {
+  height: 1px;
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+.screenreader-text:focus {
+  display: inline-block;
+  height: auto;
+  margin: auto;
+  position: static;
+  width: auto;
 }
 
 @font-face {
-  font-display: swap;
-  font-family: Alaska;
-  src: url(../fonts/alaska.ttf) format("truetype");
+  font-family: "Lato";
+  src: url("lato-v24-latin_latin-ext-regular") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }

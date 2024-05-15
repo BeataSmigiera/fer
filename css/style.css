@@ -1,14 +1,63 @@
-.screenreader-text {
-  height: 1px;
-  left: -999px;
-  position: absolute;
-  top: auto;
-  width: 1px;
+:root {
+  /* Spacing */
+  --spacing-xs: 2px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 75px;
+
+  /* Colors */
+  --blue-900: #212d37;
+  --orange-900: #a55350;
 }
-.screenreader-text:focus {
-  display: inline-block;
-  height: auto;
-  margin: auto;
-  position: static;
-  width: auto;
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--blue-900);
+}
+
+a {
+  color: var(--orange-900);
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pt-lg {
+  padding-top: var(--spacing-lg);
+}
+
+.gap-lg {
+  gap: var(--spacing-lg);
+}
+
+.gap-xxl {
+  gap: var(--spacing-xxl);
+}
+
+/* HEADER */
+.header-direction {
+  flex-direction: column;
+}
+
+.nav-text-style {
+  letter-spacing: var(--spacing-xs);
+  text-transform: uppercase;
+}
+
+.nav-text-style a {
+  color: var(--blue-900);
+}
+
+.nav-text-style a:hover,
+.nav-text-style a:focus,
+.nav-text-style a:active {
+  color: var(--orange-900);
 }

@@ -17,72 +17,104 @@
       property="og:title"
       content="PRZYSTANEK Finanse, Edukacja, Rozwój | Przystanek FER"
     />
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="Platforma promocyjno-informacyjna. Profesjonalną terapię logopedyczną i
+    pedagogiczną, korepetycje i przygotowanie do egzaminu z języka polskiego, wsparcie w
+    rozwoju poprzez Kompas Kariery i mentoring oraz edukację finansową. Adresowana do
+    różnych grup odbiorców."
+    />
 
     <!-- The order of CSS matters! -->
     <link rel="stylesheet" href="/css/style_basic.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="flex-center gap-xxl header-direction pt-lg">
       <a id="skip-nav" class="screenreader-text" href="#main-content">
         Skip to Content
       </a>
 
-      <div class="logo-description">
-        <object type="image/svg+xml" data="svg/logo-white.svg"></object>
-      </div>
+      <a href="/">
+        <object type="image/svg+xml" data="svg/logo-navbar.svg"></object>
+      </a>
 
-      <nav class="primary-nav">
-        <ul role="list" class="nav-list">
-          <li>
-            <a href="/" title="Strona główna">
-              <object type="image/svg+xml" data="svg/home.svg"></object>
-            </a>
-          </li>
-          <li class="active">
-            <a href="pages/about.html">O nas</a>
-          </li>
-          <li>
-            <a href="pages/offer.html/">Oferta</a>
-          </li>
-          <li>
-            <a href="pages/priceList.html/">Cennik</a>
-          </li>
-          <li>
-            <a href="pages/contact.html/">Kontakt</a>
-          </li>
-          <li>
-            <a href="pages/faq.html/">FAQ</a>
-          </li>
-        </ul>
-      </nav>
+      <!-- Container for navbar -->
+      <nav id="js-navbar"></nav>
+      <img src="images/bg_main.jpg" alt="Main background" />
     </header>
+
     <main id="main-content">
       <section class="welcome">
         <h1 class="title">Nasza oferta</h1>
         <div>tekst</div>
-      </section>
-      <section class="about-shortcut">short info about</section>
-    </main>
-    <footer></footer>
 
-    <!-- Script to fetch JSON data -->
-    <script>
-      // Fetch JSON data asynchronously
-      fetch("offerData/offer.json")
-        .then((response) => response.json()) // Parse JSON data
-        .then((data) => {
-          data.forEach((offer) => {
-            for (const key in offer) {
-              if (Object.hasOwnProperty.call(offer, key)) {
-                const value = offer[key];
-                console.log(`${key}: ${value}`);
-              }
-            }
-          });
-        })
-        .catch((error) => console.error("Error fetching JSON:", error));
-    </script>
+        <!-- Container for cards -->
+        <div id="card-container"></div>
+      </section>
+
+      <section class="about-shortcut">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, atque
+          laudantium eveniet ratione deserunt laborum. Autem numquam optio
+          nostrum, magni aliquam laudantium temporibus placeat delectus quos
+          libero eius ipsam necessitatibus! Inventore nobis omnis aliquid optio,
+          soluta veritatis necessitatibus ratione repellat itaque, eius
+          similique assumenda. Culpa quia tempore iste, odit debitis autem
+          reprehenderit id! Quos suscipit iste error, optio modi deleniti! Quae
+          inventore, eveniet iste natus officiis, culpa rem molestias
+          consequuntur in assumenda quas, ipsum delectus? Provident, voluptatem?
+          Quas iusto laboriosam repellendus unde saepe odio facilis fuga quod,
+          dolores omnis voluptatibus? Itaque eius quae beatae consectetur,
+          possimus, tempora obcaecati dolorum sed ducimus blanditiis aspernatur
+          cumque, at facilis laudantium explicabo. Assumenda eos dolor unde
+          modi, nemo doloribus rem tempora vel veritatis reprehenderit? Illum
+          voluptatem nobis esse corrupti sunt consectetur id est quam,
+          perferendis at, cupiditate non ratione. Placeat eos incidunt nobis
+          beatae doloribus iste, nisi corrupti voluptates ipsa, accusantium
+          corporis facere accusamus!
+        </div>
+
+        <div>
+          <img src="" alt="" />
+          <div>opis osoby</div>
+          <a href="">Więcej</a>
+        </div>
+      </section>
+    </main>
+    <footer id="js-footer">
+      <div class="logo-description">
+        <object type="image/svg+xml" data="svg/logo-footer.svg"></object>
+      </div>
+      <div class="flex">
+        <div>
+          Platforma promocyjno-informacyjna. Oferujemy wsparcie w poszerzaniu
+          wiedzy finansowej oraz profesjonalne usługi logopedyczne, terapii
+          pedagogicznej, mentoringu i kursów przygotowawczych do egzaminów klasy
+          ósmej z j. polskiego. Adresowana do różnych grup odbiorców.
+        </div>
+
+        <div>
+          <div>Na skróty</div>
+          <div>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+
+        <div>
+          <div>Kontakt</div>
+          <div>adres</div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript file -->
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/offerItem.js"></script>
+    <script src="scripts/footer.js"></script>
   </body>
 </html>
