@@ -3,7 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PRZYSTANEK FER</title>
+    <title>PRZYSTANEK Finanse, Edukacja, Rozwój</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Platforma promocyjno-informacyjna. Profesjonalną terapię logopedyczną i
+      pedagogiczną, korepetycje i przygotowanie do egzaminu z języka polskiego, wsparcie w
+      rozwoju poprzez Kompas Kariery i mentoring oraz edukację finansową. Adresowana do
+      różnych grup odbiorców."
+    />
+
+    <meta
+      property="og:title"
+      content="PRZYSTANEK Finanse, Edukacja, Rozwój | Przystanek FER"
+    />
+    <meta property="og:description" content="" />
+
+    <!-- The order of CSS matters! -->
+    <link rel="stylesheet" href="/css/style_basic.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a id="skip-nav" class="screenreader-text" href="#main-content">
+        Skip to Content
+      </a>
+
+      <div class="logo-description">
+        <object type="image/svg+xml" data="svg/logo-white.svg"></object>
+      </div>
+
+      <nav class="primary-nav">
+        <ul role="list" class="nav-list">
+          <li>
+            <a href="/" title="Strona główna">
+              <object type="image/svg+xml" data="svg/home.svg"></object>
+            </a>
+          </li>
+          <li class="active">
+            <a href="pages/about.html">O nas</a>
+          </li>
+          <li>
+            <a href="pages/offer.html/">Oferta</a>
+          </li>
+          <li>
+            <a href="pages/priceList.html/">Cennik</a>
+          </li>
+          <li>
+            <a href="pages/contact.html/">Kontakt</a>
+          </li>
+          <li>
+            <a href="pages/faq.html/">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="welcome">
+        <h1 class="title">Nasza oferta</h1>
+        <div>tekst</div>
+      </section>
+      <section class="about-shortcut">short info about</section>
+    </main>
+    <footer></footer>
+
+    <!-- Script to fetch JSON data -->
+    <script>
+      // Fetch JSON data asynchronously
+      fetch("offerData/offer.json")
+        .then((response) => response.json()) // Parse JSON data
+        .then((data) => {
+          data.forEach((offer) => {
+            for (const key in offer) {
+              if (Object.hasOwnProperty.call(offer, key)) {
+                const value = offer[key];
+                console.log(`${key}: ${value}`);
+              }
+            }
+          });
+        })
+        .catch((error) => console.error("Error fetching JSON:", error));
+    </script>
+  </body>
 </html>

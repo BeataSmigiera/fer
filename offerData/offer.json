@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kurs edukacji finansowej Crown",
+    "content": "To program szkoleniowy, który pomaga uczestnikom zdobyć wiedzę i umiejętności niezbędne do skutecznego zarządzania finansami osobistymi...",
+    "imgPath": "images/bg_crown.jpg"
+  },
+  {
+    "name": "Kompas kariery",
+    "content": "Innowacyjny program wspierający osoby w określeniu  swoich zawodowych celów i ścieżki rozwoju...",
+    "imgPath": "images/bg_compass.jpg"
+  },
+  {
+    "name": "Mentoring",
+    "content": "Proces, w którym doświadczony profesjonalista (mentor)  udziela wsparcia, osobie mniej doświadczonej, pomagając jej w rozwoju zawodowym i osobistym...",
+    "imgPath": "/path/to/image3.jpg"
+  },
+  {
+    "name": "Terapia pedagogiczna",
+    "content": "Forma wsparcia skierowana do dzieci i młodzieży mających trudności w nauce lub rozwoju. Obejmuje: zajęcia korekcyjno-kompensacyjne...",
+    "imgPath": "images/bg_woman.jpg"
+  },
+  {
+    "name": "Terapia logopedyczna",
+    "content": "Wspiera rozwój języka, likwiduje zaburzenia komunikacyjne, usuwa wady wymowy...",
+    "imgPath": "images/bg_logotherapy.jpg"
+  },
+  {
+    "name": "Język polski dla uczniów szkoły podstawowej",
+    "content": "Indywidualne lekcje, które pomagają uczniom w doskonaleniu umiejętności związanych z językiem polskim...",
+    "imgPath": "/images/bg_girl.jpg"
+  }
+]

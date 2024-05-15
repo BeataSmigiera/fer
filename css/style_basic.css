@@ -1,0 +1,17 @@
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol[role="list"],
+ul[role="list"] {
+  list-style: none;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Alaska;
+  src: url(../fonts/alaska.ttf) format("truetype");
+}
