@@ -15,8 +15,11 @@ img,
 picture,
 svg {
   display: block;
+  width: 100%;
   max-width: 100%;
+  object-fit: cover;
 }
+
 .screenreader-text {
   height: 1px;
   left: -999px;

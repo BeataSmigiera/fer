@@ -12,7 +12,7 @@
   {
     "name": "Mentoring",
     "content": "Proces, w którym doświadczony profesjonalista (mentor)  udziela wsparcia, osobie mniej doświadczonej, pomagając jej w rozwoju zawodowym i osobistym...",
-    "imgPath": "/path/to/image3.jpg"
+    "imgPath": "images/therapy.jpg"
   },
   {
     "name": "Terapia pedagogiczna",
@@ -22,11 +22,11 @@
   {
     "name": "Terapia logopedyczna",
     "content": "Wspiera rozwój języka, likwiduje zaburzenia komunikacyjne, usuwa wady wymowy...",
-    "imgPath": "images/bg_logotherapy.jpg"
+    "imgPath": "images/bg_logotherapy.jpeg"
   },
   {
     "name": "Język polski dla uczniów szkoły podstawowej",
     "content": "Indywidualne lekcje, które pomagają uczniom w doskonaleniu umiejętności związanych z językiem polskim...",
-    "imgPath": "/images/bg_girl.jpg"
+    "imgPath": "images/bg_girl.jpg"
   }
 ]

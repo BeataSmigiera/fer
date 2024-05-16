@@ -26,8 +26,8 @@
     />
 
     <!-- The order of CSS matters! -->
-    <link rel="stylesheet" href="/css/style_basic.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style_basic.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="flex-center gap-xxl flex-column pt-lg">
@@ -41,16 +41,41 @@
 
       <!-- Container for navbar -->
       <nav id="js-navbar"></nav>
-      <img src="images/bg_main.jpg" alt="Main background" />
+      <img src="images/bg_main.jpg" alt="Main background" class="bg-default" />
     </header>
 
     <main id="main-content">
-      <section class="welcome">
-        <h1 class="title">Nasza oferta</h1>
-        <div>tekst</div>
+      <section class="flex-center flex-column gap-lg">
+        <h1 class="mt-xxl font-light">Nasza oferta</h1>
+        <div class="text-gray-500 w-50 text-center description-inner-spacing">
+          <b>
+            „Twoje życie staje się lepsze nie przez przypadek, ale dzięki
+            zmianie” Jim Rohn
+          </b>
+          <br />
+          <br />
+          <p>Cześć! Miło Cię widzieć, na naszym Przystanku.</p>
+          <p>
+            Chcesz zatrzymać się na chwilę, by z nowymi siłami i umiejętnościami
+            ruszyć w dalszą podróż przez życie?
+          </p>
+          <p>Potrzebujesz sprawdzić kierunek, zanim wyruszysz w drogę?</p>
+          <p>Myślisz o rozwoju, ale nie wiesz od czego zacząć?</p>
+          <p>
+            A może potrzebujesz zapewnić swojemu dziecku wsparcie i dobry start?
+          </p>
+          <br />
+          <b>Jesteś we właściwym miejscu.</b>
+          <p>
+            Przystanek to miejsce edukacji, terapii i rozwoju. Tu otrzymasz
+            pomoc i wsparcie dla siebie i swojego dziecka. Usiądź wygodnie,
+            przejrzyj, co polecamy, pomyśl, czego potrzebujesz i skontaktuj się
+            z nami.
+          </p>
+        </div>
 
         <!-- Container for cards -->
-        <div id="card-container"></div>
+        <div id="card-container" class="flex-center flex-start gap-lg"></div>
       </section>
 
       <section class="about-shortcut">
