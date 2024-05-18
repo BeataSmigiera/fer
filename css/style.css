@@ -10,15 +10,21 @@
 
   /* Colors */
   --blue-900: #212d37;
+  --blue-300: #e1e8f0;
   --orange-900: #a55350;
   --gray-500: #6d7d8b;
+  --white: #fff;
 
   /* Sizes */
   --bg-default: 400px;
+  --line-height-5: 1.4;
   --card-w: 370px;
   --card-h: 240px;
+  --w-75: 75%;
   --w-50: 50%;
   --w-25: 25%;
+  --radius-1: 1rem;
+  --size-md: 1.2rem;
 
   /* Opacity */
   --o-bg-default: 0.7;
@@ -37,7 +43,8 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1,
+h2 {
   text-transform: uppercase;
   letter-spacing: var(--spacing-xs);
 }
@@ -57,12 +64,36 @@ h1 {
   align-items: flex-start;
 }
 
+.-mt-4 {
+  margin-top: -4.5rem;
+}
+
 .mt-xxl {
   margin-top: var(--spacing-xxl);
 }
 
+.mb-xxl {
+  margin-bottom: var(--spacing-xxl);
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .pt-lg {
   padding-top: var(--spacing-lg);
+}
+
+.pt-xxl {
+  padding-top: var(--spacing-xxl);
+}
+
+.pb-xxl {
+  padding-bottom: var(--spacing-xxl);
+}
+
+.p-lg {
+  padding: var(--spacing-lg);
 }
 
 .gap-lg {
@@ -77,21 +108,65 @@ h1 {
   font-weight: 300;
 }
 
+.leading-5 {
+  line-height: var(--line-height-5);
+}
+
 .bg-default {
   height: var(--bg-default);
   opacity: var(--o-bg-default);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-blue-900 {
+  background-color: var(--blue-900);
+}
+
+.btn-default {
+  padding: var(--spacing-sm);
+  background-color: var(--blue-900);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  padding: var(--spacing-sm);
+  background-color: var(--white);
+  border: 1px solid var(--blue-900);
+  color: var(--blue-900);
 }
 
 .text-gray-500 {
   color: var(--gray-500);
 }
 
+.bg-blue-300 {
+  background-color: var(--blue-300);
+}
+
 .w-25 {
   width: var(--w-25);
 }
 
+.mw-75 {
+  max-width: var(--w-75);
+}
+
 .w-50 {
   width: var(--w-50);
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.h-100 {
+  height: 100px;
 }
 
 .text-center {
@@ -101,6 +176,10 @@ h1 {
 /* HEADER */
 .nav-text-style {
   letter-spacing: var(--spacing-xs);
+  text-transform: uppercase;
+}
+
+.text-uppercase {
   text-transform: uppercase;
 }
 
@@ -131,4 +210,16 @@ h1 {
 .card-text {
   letter-spacing: var(--spacing-xxs);
   line-height: var(--spacing-lg);
+}
+
+.rounded-1 {
+  border-radius: var(--radius-1);
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.font-size-md {
+  font-size: var(--size-md);
 }
