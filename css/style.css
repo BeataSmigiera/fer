@@ -322,6 +322,11 @@ object.icon-in:hover {
   }
 }
 
+.index-card:hover .card-text {
+  color: var(--orange-900);
+  transition: all 0.3s ease;
+}
+
 .card-img-top {
   @media (min-width: 768px) {
     width: var(--card-w);
@@ -337,4 +342,5 @@ object.icon-in:hover {
 .card-text {
   letter-spacing: var(--spacing-xxs);
   line-height: var(--spacing-lg);
+  color: var(--blue-900);
 }

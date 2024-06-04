@@ -33,7 +33,7 @@ fetch("offerData/offer.json")
       cardBody.classList.add("card-body");
 
       // Create card title
-      const cardTitle = document.createElement("h5");
+      const cardTitle = document.createElement("h4");
       cardTitle.classList.add("card-title");
       cardTitle.textContent = offer.name;
       cardBody.appendChild(cardTitle);

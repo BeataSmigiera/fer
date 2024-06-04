@@ -3,31 +3,36 @@
     "name": "Kurs edukacji finansowej Crown",
     "content": "To program szkoleniowy, który pomaga uczestnikom zdobyć wiedzę i umiejętności niezbędne do skutecznego zarządzania finansami osobistymi...",
     "imgPath": "images/bg_crown.jpg",
-    "pagePath": "/"
+    "pagePath": "pages/offer/crown.html"
   },
   {
     "name": "Kompas kariery",
     "content": "Innowacyjny program wspierający osoby w określeniu  swoich zawodowych celów i ścieżki rozwoju...",
-    "imgPath": "images/bg_compass.jpg"
+    "imgPath": "images/bg_compass.jpg",
+    "pagePath": "pages/offer/career-compass.html"
   },
   {
     "name": "Mentoring",
     "content": "Proces, w którym doświadczony profesjonalista (mentor)  udziela wsparcia, osobie mniej doświadczonej, pomagając jej w rozwoju zawodowym i osobistym...",
-    "imgPath": "images/therapy.jpg"
+    "imgPath": "images/therapy.jpg",
+    "pagePath": "pages/offer/mentoring.html"
   },
   {
     "name": "Terapia pedagogiczna",
     "content": "Forma wsparcia skierowana do dzieci i młodzieży mających trudności w nauce lub rozwoju. Obejmuje: zajęcia korekcyjno-kompensacyjne...",
-    "imgPath": "images/bg_woman.jpg"
+    "imgPath": "images/bg_woman.jpg",
+    "pagePath": "pages/offer/pedagogical-therapy.html"
   },
   {
     "name": "Terapia logopedyczna",
     "content": "Wspiera rozwój języka, likwiduje zaburzenia komunikacyjne, usuwa wady wymowy...",
-    "imgPath": "images/bg_logotherapy.jpeg"
+    "imgPath": "images/bg_logotherapy.jpeg",
+    "pagePath": "pages/offer/logotherapy.html"
   },
   {
     "name": "Język polski dla uczniów szkoły podstawowej",
     "content": "Indywidualne lekcje, które pomagają uczniom w doskonaleniu umiejętności związanych z językiem polskim...",
-    "imgPath": "images/bg_girl.jpg"
+    "imgPath": "images/bg_girl.jpg",
+    "pagePath": "pages/offer/polish-language-tutoring.html"
   }
 ]
