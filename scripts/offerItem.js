@@ -3,7 +3,7 @@ fetch("offerData/offer.json")
   .then((response) => response.json()) // Parse JSON data
   .then((data) => {
     // Reference to the container where cards will be appended
-    const container = document.getElementById("card-container");
+    const container = document.getElementById("js-card-container");
 
     // Check the current URL to determine where the cards will be displayed
     const isIndexPage = window.location.pathname.includes("index.html");
