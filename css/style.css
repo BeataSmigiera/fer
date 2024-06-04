@@ -344,3 +344,7 @@ object.icon-in:hover {
   line-height: var(--spacing-lg);
   color: var(--blue-900);
 }
+
+.logo_white_horizontal {
+  width: 350px;
+}
