@@ -25,27 +25,37 @@
     różnych grup odbiorców."
     />
 
+    <!-- WATCH OUT FOR THE PATHS! -->
     <!-- The order of CSS matters! -->
-    <link rel="stylesheet" href="css/style_basic.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style_basic.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
-    <!-- Include navbar and footer in loadContent.js -->
-    <script src="scripts/loadContent.js"></script>
+    <!-- JavaScript file -->
+    <script src="../scripts/navbar.js" defer></script>
+    <script src="../scripts/offerItem.js"></script>
+    <script src="../scripts/footer.js" defer></script>
   </head>
   <body>
     <header class="flex-center gap-xxl flex-column pt-lg">
-      <a id="skip-nav" class="screenreader-text" href="#main-content">
-        Skip to Content
+      <!-- Logo -->
+      <a href="../index.html" class="flex-center">
+        <object
+          class="logo_white_horizontal"
+          type="image/svg+xml"
+          data="../svg/logo_white_horizontal.svg"
+        ></object>
       </a>
-
-      <a href="/">
-        <object type="image/svg+xml" data="svg/logo-navbar.svg"></object>
-      </a>
-
       <!-- Container for navbar -->
       <nav id="js-navbar"></nav>
+      <!-- Page background -->
+      <img
+        src="../images/bg_bible.jpg"
+        alt="FAQ background"
+        class="bg-default"
+      />
     </header>
 
-    <main>lFAQ</main>
+    <main>FAQ</main>
+    <footer id="js-footer"></footer>
   </body>
 </html>
