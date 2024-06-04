@@ -1,5 +1,5 @@
 // Fetch JSON data asynchronously
-fetch("offerData/offer.json")
+fetch("../offerData/offer.json")
   .then((response) => response.json()) // Parse JSON data
   .then((data) => {
     // Reference to the container where cards will be appended

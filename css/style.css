@@ -310,6 +310,10 @@ object.icon-in:hover {
   .md-bg-blue-300 {
     background-color: var(--blue-300);
   }
+
+  .md-w-80 {
+    width: var(--w-80);
+  }
 }
 
 .index-card {
@@ -322,16 +326,10 @@ object.icon-in:hover {
   }
 }
 
-.index-card:hover .card-text {
+.index-card:hover .card-text,
+.offer-list-card:hover .card-text {
   color: var(--orange-900);
   transition: all 0.3s ease;
-}
-
-.card-img-top {
-  @media (min-width: 768px) {
-    width: var(--card-w);
-    height: var(--card-h);
-  }
 }
 
 .card-img-top {
@@ -339,10 +337,44 @@ object.icon-in:hover {
   height: var(--card-h);
 }
 
+.card-img-top {
+  @media (min-width: 768px) {
+    max-width: var(--card-w);
+    height: var(--card-h);
+  }
+}
+
 .card-text {
   letter-spacing: var(--spacing-xxs);
   line-height: var(--spacing-lg);
   color: var(--blue-900);
+}
+
+.offer-list-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: var(--spacing-lg);
+  }
+}
+
+.offer-list-card .card-title {
+  margin-top: 0;
+}
+
+.offer-list-card .card-body {
+  width: var(--w-80);
+}
+
+.offer-list-card .card-img-top {
+  @media (min-width: 768px) {
+    width: var(--card-w);
+    min-width: var(--card-w);
+    max-width: var(--card-w);
+    height: var(--card-h);
+  }
 }
 
 .logo_white_horizontal {
