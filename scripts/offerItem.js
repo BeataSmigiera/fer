@@ -11,7 +11,8 @@ fetch("offerData/offer.json")
     // Iterate through each offer object in the JSON data
     data.forEach((offer) => {
       // Create card element
-      const card = document.createElement("div");
+      const card = document.createElement("a");
+      card.href = offer.pagePath;
 
       // Apply different CSS classes based on where the cards will be displayed
       if (isIndexPage) {

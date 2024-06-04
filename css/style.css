@@ -19,6 +19,8 @@
   /* Sizes */
   --bg-default: 400px;
   --line-height-5: 1.4;
+  --line-height-2: 1.2;
+
   --card-w: 370px;
   --card-h: 240px;
   --w-80: 80%;
@@ -142,6 +144,10 @@ h2 {
 
 .leading-5 {
   line-height: var(--line-height-5);
+}
+
+.leading-2 {
+  line-height: var(--line-height-2);
 }
 
 .bg-default {
@@ -289,11 +295,20 @@ object.icon-in:hover {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
   }
-}
-
-@media (min-width: 768px) {
   .mdw-50 {
     width: var(--w-75);
+  }
+
+  .md-flex-column {
+    flex-direction: column;
+  }
+
+  .md-p-lg {
+    padding: var(--size-md);
+  }
+
+  .md-bg-blue-300 {
+    background-color: var(--blue-300);
   }
 }
 

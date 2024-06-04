@@ -2,7 +2,8 @@
   {
     "name": "Kurs edukacji finansowej Crown",
     "content": "To program szkoleniowy, który pomaga uczestnikom zdobyć wiedzę i umiejętności niezbędne do skutecznego zarządzania finansami osobistymi...",
-    "imgPath": "images/bg_crown.jpg"
+    "imgPath": "images/bg_crown.jpg",
+    "pagePath": "/"
   },
   {
     "name": "Kompas kariery",
