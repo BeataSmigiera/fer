@@ -91,6 +91,10 @@ h2 {
   align-items: center;
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -105,6 +109,10 @@ h2 {
 
 .justify-start {
   justify-content: start;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .no-wrap {
@@ -123,12 +131,20 @@ h2 {
   margin-bottom: var(--spacing-xxl);
 }
 
+.mb-md {
+  margin-bottom: var(--spacing-md);
+}
+
 .m-auto {
   margin: auto;
 }
 
 .ml-lg {
   margin-left: var(--spacing-lg);
+}
+
+.p-0 {
+  padding: 0;
 }
 
 .pt-lg {
@@ -426,4 +442,11 @@ a:hover::before .icon {
 
 .logo_white_horizontal {
   width: 350px;
+}
+
+/* PriceList */
+.toc-dots {
+  flex: 1;
+  border-bottom: 1px dotted var(--blue-900);
+  margin: 0 var(--size-md);
 }
