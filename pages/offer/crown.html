@@ -3,19 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Therapy Offer</title>
-    <link rel="stylesheet" href="../../css/styles.css" />
+    <title>PRZYSTANEK Finanse, Edukacja, Rozwój</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Platforma promocyjno-informacyjna. Profesjonalną terapię logopedyczną i
+      pedagogiczną, korepetycje i przygotowanie do egzaminu z języka polskiego, wsparcie w
+      rozwoju poprzez Kompas Kariery i mentoring oraz edukację finansową. Adresowana do
+      różnych grup odbiorców."
+    />
+
+    <meta
+      property="og:title"
+      content="PRZYSTANEK Finanse, Edukacja, Rozwój | Przystanek FER"
+    />
+    <meta
+      property="og:description"
+      content="Platforma promocyjno-informacyjna. Profesjonalną terapię logopedyczną i
+    pedagogiczną, korepetycje i przygotowanie do egzaminu z języka polskiego, wsparcie w
+    rozwoju poprzez Kompas Kariery i mentoring oraz edukację finansową. Adresowana do
+    różnych grup odbiorców."
+    />
+
+    <!-- WATCH OUT FOR THE PATHS! -->
+    <!-- The order of CSS matters! -->
+    <link rel="stylesheet" href="../../css/style_basic.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <!-- JavaScript file -->
     <script src="../../scripts/navbar.js" defer></script>
+    <script src="../../scripts/offerItem.js"></script>
     <script src="../../scripts/footer.js" defer></script>
   </head>
   <body>
-    <div id="js-navbar"></div>
+    <header class="flex-center gap-xxl flex-column pt-lg">
+      <!-- Logo -->
+      <a href="../../index.html" class="flex-center">
+        <object
+          class="logo_white_horizontal"
+          type="image/svg+xml"
+          data="../../svg/logo_white_horizontal.svg"
+        ></object>
+      </a>
+      <!-- Container for navbar -->
+      <nav id="js-navbar"></nav>
+      <!-- Page background -->
+      <img
+        src="../../images/bg_crown.jpg"
+        alt="Crown background"
+        class="bg-default"
+      />
+    </header>
 
-    <main>
-      <h1>Therapy Offer</h1>
-      <p>Details about the therapy offer.</p>
+    <main class="bg-gray-100">
+      <section class="flex-center flex-column gap-lg pb-xxl m-auto md-w-80">
+        <h1 class="mt-xxl font-light">Kurs Edukacji Finansowej Crown</h1>
+        <div class="text-gray-500 w-75 mdw-50 text-center leading-2 mb-xxl">
+          <p class="font-light letter-spacing-1">
+            „Inteligencję człowieka można zobaczyć po tym, jak zarabia
+            pieniądze. Jego mądrość w tym, jak wydaje. (przysłowie greckie)
+          </p>
+        </div>
+        <!-- About -->
+        <div>
+          <h5 class="flex-center justify-start gap-lg">
+            <span>//</span> <span>Co to za kurs?</span>
+          </h5>
+          <div class="text-gray-500 leading-5 ml-lg">
+            Jeśli sam widzisz, że to pieniądze rządzą Tobą, a nie Ty
+            powierzonymi Tobie pieniędzmi i chcesz się nauczyć jak być mądrym
+            finansowo według „Bożej ekonomii” to ten kurs jest dla Ciebie. Jeśli
+            znasz kogoś, kto chciałby wziąć udział w kursie, kto ma kłopoty
+            finansowe, nie potrafi zarządzać pieniędzmi, to zaproś go na kurs.
+            Kurs dotyczy poznania uniwersalnych zasad zarządzania pieniędzmi i
+            majątkiem, wartości pracy, stylu życia oraz poznania narzędzi
+            praktycznych, które pozwolą:
+          </div>
+        </div>
+        <!-- What skills will you gain from it? -->
+        <div>
+          <h5 class="flex-center justify-start gap-lg">
+            <span>//</span>
+            <span>Jakie umiejętności dzięki niemu zdobędziesz?</span>
+          </h5>
+          <div class="text-gray-500 leading-5 ml-lg">
+            ;Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero
+            nam ducimus. Ab voluptate enim corporis recusandae obcaecati
+            laborum, mollitia placeat deserunt incidunt velit, ex quisquam in
+            magni, accusantium qui.
+          </div>
+        </div>
+        <!-- Target group -->
+        <div>
+          <h5 class="flex-center justify-start gap-lg">
+            <span>//</span>
+            <span>Kto jest grupą docelową/odbiorcą?</span>
+          </h5>
+          <div class="text-gray-500 leading-5 ml-lg">
+            ;Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero
+            nam ducimus. Ab voluptate enim corporis recusandae obcaecati
+            laborum, mollitia placeat deserunt incidunt velit, ex quisquam in
+            magni, accusantium qui.
+          </div>
+        </div>
+        <!-- Course form -->
+        <div>
+          <h5 class="flex-center justify-start gap-lg">
+            <span>//</span>
+            <span>Forma kursu</span>
+          </h5>
+          <div class="text-gray-500 leading-5 ml-lg">
+            ;Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero
+            nam ducimus. Ab voluptate enim corporis recusandae obcaecati
+            laborum, mollitia placeat deserunt incidunt velit, ex quisquam in
+            magni, accusantium qui.
+          </div>
+        </div>
+      </section>
     </main>
-
-    <div id="js-footer"></div>
   </body>
 </html>

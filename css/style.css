@@ -78,6 +78,9 @@ h2 {
   text-transform: uppercase;
   letter-spacing: var(--spacing-xs);
 }
+.letter-spacing-1 {
+  letter-spacing: var(--spacing-xs);
+}
 
 .block {
   display: block;
