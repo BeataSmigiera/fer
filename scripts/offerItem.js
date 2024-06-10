@@ -5,8 +5,10 @@ fetch("../offerData/offer.json")
     // Reference to the container where cards will be appended
     const container = document.getElementById("js-card-container");
 
-    // Check the current URL to determine where the cards will be displayed
-    const isIndexPage = window.location.pathname.includes("index.html");
+    // Check if the current URL corresponds to the index page ("/" or "index.html")
+    const isIndexPage =
+      window.location.pathname === "/" ||
+      window.location.pathname === "/index.html";
 
     // Iterate through each offer object in the JSON data
     data.forEach((offer) => {
