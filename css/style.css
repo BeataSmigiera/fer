@@ -38,6 +38,50 @@
   --o-bg-default: 0.7;
 }
 
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol[role="list"],
+ul[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+img,
+picture,
+svg {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.screenreader-text {
+  height: 1px;
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+.screenreader-text:focus {
+  display: inline-block;
+  height: auto;
+  margin: auto;
+  position: static;
+  width: auto;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../lato-v24-latin_latin-ext-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: lighter;
