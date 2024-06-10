@@ -130,6 +130,10 @@ h2 {
   display: block;
 }
 
+.d-none {
+  display: none;
+}
+
 .flex-center {
   display: flex;
   flex-direction: row;
@@ -180,6 +184,10 @@ h2 {
 
 .mb-md {
   margin-bottom: var(--spacing-md);
+}
+
+.mb-sm {
+  margin-bottom: var(--spacing-sm);
 }
 
 .m-auto {
@@ -431,6 +439,10 @@ a:hover::before .icon {
 
   .md-w-80 {
     width: var(--w-80);
+  }
+
+  .md-block {
+    display: block;
   }
 }
 
