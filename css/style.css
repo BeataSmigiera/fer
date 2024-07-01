@@ -207,6 +207,10 @@ h2 {
   padding: 0;
 }
 
+.p-sm {
+  padding: var(--spacing-sm);
+}
+
 .p-md {
   padding: var(--spacing-md);
 }
