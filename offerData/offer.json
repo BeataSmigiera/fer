@@ -2,7 +2,7 @@
   {
     "name": "Kurs edukacji finansowej Crown",
     "content": "To program szkoleniowy, który pomaga uczestnikom zdobyć wiedzę i umiejętności niezbędne do skutecznego zarządzania finansami osobistymi...",
-    "imgPath": "../images/bg_crown.jpg",
+    "imgPath": "../images/bg_crown.png",
     "pagePath": "../pages/offer/crown.html"
   },
   {
@@ -14,7 +14,7 @@
   {
     "name": "Mentoring",
     "content": "Wsparcie, towarzyszenie, motywowanie; proces ukierunkowany na realizację celu, prowadzący do zmiany i rozwoju osobistego i/lub zawodowego...",
-    "imgPath": "../images/therapy.jpg",
+    "imgPath": "../images/bg_mentor.png",
     "pagePath": "../pages/offer/mentoring.html"
   },
   {
